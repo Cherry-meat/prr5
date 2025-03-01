@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Решение уравнения y = 3*х+5 будет " + y);
         }
         void urv2(){
-            if (this.a == this.b) {
+            if (this.a - this.b == 0) {
                 System.out.println("Деление на 0 в уравнении y = (a + b)/(a - b).");
             }
             else{
